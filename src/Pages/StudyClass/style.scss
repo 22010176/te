@@ -1,0 +1,30 @@
+.main-app {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    gap: 5px;
+
+    // .left-section {
+    //     display: flex;
+    //     flex-direction: column;
+    //     gap: 10px;
+    // }
+
+    .top-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-container {
+        display: grid;
+        gap: 5px;
+        // grid-template-columns: auto 1fr 2.5fr 1fr; 
+        grid-template-columns: auto 2.5fr 1fr;
+        margin: 5px;
+        // >* {
+        //     border: 1px solid white;
+        // }
+    }
+}

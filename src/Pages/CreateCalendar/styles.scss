@@ -1,0 +1,142 @@
+.create-calendar {
+    // width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    gap: 10px;
+    overflow: auto;
+
+    .left-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-direction: column;
+        overflow: auto;
+    }
+
+    .slider-calendar-component {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .left-up-sect {
+        max-width: 100%;
+    }
+
+    .top-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-container {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: auto 1fr 1.2fr;
+        overflow: hidden;
+        border-top: 1px white solid;
+    }
+
+    .right-section {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .slider-calendar {
+        display: grid;
+    }
+
+    .slider-calendar-data {
+        display: flex;
+        justify-content: center;
+
+        gap: 10px;
+        font-size: 1.5rem;
+    }
+
+    .slider-calendar {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .change-month-button button.right {
+        border: none;
+        width: 0px;
+        height: 0px;
+        padding: 0px;
+        opacity: 0.5;
+        border-left: 30px solid white;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+    }
+
+    .change-month-button button.left {
+        border: none;
+        width: 0px;
+        height: 0px;
+        padding: 0px;
+        opacity: 0.5;
+        border-right: 30px solid white;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        transition: opacity 0.1s;
+    }
+
+    button.left:hover,
+    button.right:hover,
+    button.them-lop-btn:hover,
+    button.xacnhan-lop-btn:hover {
+        opacity: 0.7;
+    }
+
+    button.left:active,
+    button.right:active,
+    button.them-lop-btn:active,
+    button.xacnhan-lop-btn:active {
+        opacity: 1;
+    }
+
+    .active2 {
+        background-color: rgb(69, 69, 154) !important;
+    }
+
+    .active {
+        background-color: rgb(45, 45, 255) !important;
+    }
+
+    .disable {
+        user-select: none;
+        pointer-events: none;
+    }
+
+    button.them-lop-btn,
+    button.xacnhan-lop-btn {
+        outline: none;
+        opacity: 0.6;
+        border: none;
+        border: none;
+        background-color: grey;
+        padding: 7px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: large;
+    }
+
+    .lhpdc:hover {
+        background-color: rgb(156, 92, 92);
+    }
+
+    .hocphan-listting {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        // max-height: 300px;
+        // gap: 1px;
+        max-height: 200px;
+        overflow: auto;
+        border-top: 1px solid white;
+    }
+}

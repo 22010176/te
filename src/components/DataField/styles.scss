@@ -1,0 +1,18 @@
+.info-list {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-list-heading {
+    font-size: .9rem;
+
+}
+
+.info-list-content {
+    font-size: .8rem;
+    color: rgb(149, 209, 255);
+}

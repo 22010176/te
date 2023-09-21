@@ -1,0 +1,33 @@
+.container {
+    max-width: auto;
+
+    .danh-sach {
+        display: grid;
+        min-height: 60px;
+        max-height: 120px;
+        padding: 10px;
+        border: solid 2px white;
+        gap: 3px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .danh-sach-flex {
+        display: flex;
+        min-height: 60px;
+        max-height: 120px;
+        overflow: auto;
+        gap: 3px;
+        padding: 10px;
+        max-width: 200px;
+        border: solid 2px white;
+        // overflow: auto;
+    }
+
+    .flex-col {
+        flex-direction: column;
+    }
+
+    .flex-row {
+        flex-direction: row;
+    }
+}

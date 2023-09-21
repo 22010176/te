@@ -1,0 +1,17 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >* {
+        width: 50%;
+        font-size: larger;
+    }
+}
+
+.error {
+    color: rgb(246, 184, 184);
+    font-size: .9rem;
+}

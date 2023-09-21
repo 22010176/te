@@ -1,0 +1,25 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.text-input {
+    background-color: rgb(53, 53, 53);
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 100%;
+    min-width: 50%;
+    border: none;
+    outline: none;
+}
+
+.text-label {
+    max-width: 50%;
+}
